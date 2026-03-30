@@ -1,6 +1,7 @@
 cargo-features = ["named-profiles"]
 
 [workspace]
+package.rust-version = "1.74.0"
 members = [
     "api",
     "liquidity-bot",
